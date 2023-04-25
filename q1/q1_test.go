@@ -37,6 +37,6 @@ func TestDivideWatermelon(t *testing.T) {
 			if result != test.expected {
 				t.Errorf("Resultado esperado: %t, Resultado obtido: %t", test.expected, result)
 			}
-		})
+		}
 	}
 }
