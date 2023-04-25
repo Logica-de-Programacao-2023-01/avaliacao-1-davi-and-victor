@@ -15,5 +15,13 @@ package q1
 
 func DivideWatermelon(weight int) (bool, error) {
 	// Seu código aqui
-	return false, nil
+	var peso int
+
+	peso = weight / 2
+	if peso%2 == 0 {
+		return true, nil
+	} else {
+		return false, nil
+	}
+
 }
